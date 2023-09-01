@@ -1,0 +1,9 @@
+
+1. **Cómo escribir un generador asíncrono**:
+   Un generador asíncrono es una función especial en Python que te permite generar valores de manera perezosa y asíncrona. Esto significa que puedes obtener valores uno a la vez mientras se procesan en segundo plano. Para escribir un generador asíncrono, debes utilizar la palabra clave `async` antes de `def` al definir la función del generador. Luego, dentro de la función, puedes usar `yield` para producir valores, pero puedes hacerlo de manera asíncrona utilizando `await` cuando sea necesario.
+
+2. **Cómo usar comprensiones asíncronas**:
+   Las comprensiones son una forma concisa de crear listas, conjuntos o diccionarios en Python. Las comprensiones asíncronas son una extensión de esto que te permite crear estructuras de datos de manera asíncrona. Puedes usar la sintaxis `async for` para recorrer elementos de forma asíncrona y generar una nueva estructura de datos. Esto es especialmente útil cuando trabajas con operaciones de E/S asíncronas, como solicitudes a la red o lectura/escritura de archivos, ya que permite un procesamiento más eficiente.
+
+3. **Cómo anotar generadores con tipos**:
+   La anotación de tipos es una característica en Python que te permite especificar el tipo de datos que una variable o una función espera o devuelve. Puedes usar la notación de tipos para especificar qué tipo de valores generará tu generador asíncrono y qué tipo de valores se pueden esperar al consumirlo. Esto ayuda a que tu código sea más claro y a detectar posibles errores de tipo antes de tiempo. Puedes utilizar las anotaciones de tipo en la definición de la función del generador y en las declaraciones de `yield` para indicar los tipos de valores que se manejarán.
